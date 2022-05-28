@@ -1,0 +1,1 @@
+vhdtdtfi -prj AlaaEldinTamer_18200328 -o "C:/Users/alaae/Desktop/New folder (3)/AlaaEldinTamer_MIPS/Control_Unit.vhi" -module Control_Unit -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Control_Unit.vhd 

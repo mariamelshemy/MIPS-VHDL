@@ -1,0 +1,41 @@
+ISim log file
+Running: C:\Users\mariam\Documents\AlaaEldinTamer_MIPS\test_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/mariam/Documents/AlaaEldinTamer_MIPS/test_mips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_mips/uut/Inst_Adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ERROR: Index 24 out of bound 0 to 23. 
+ERROR: In process Instruction_Memory.vhd:50 
+ 
+INFO: Simulator is stopped.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 0 ps, Instance /test_mips/uut/Inst_Adder/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_Instruction_Memory/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+at 5 ns(1), Instance /test_mips/uut/Inst_RegisterFile/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+ERROR: Index 24 out of bound 0 to 23. 
+ERROR: In process Instruction_Memory.vhd:50 
+ 
+INFO: Simulator is stopped.

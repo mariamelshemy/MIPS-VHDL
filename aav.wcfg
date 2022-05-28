@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/mariam/Documents/AlaaEldinTamer_MIPS/testb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/testb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Instruction_Memory/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Instruction_Memory/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Instruction_Memory/readdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Instruction_Memory/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[0:23]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:23]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/readreg1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readreg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readreg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/readreg2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readreg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readreg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/writereg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writereg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writereg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/readdata1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/readdata2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/writedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/regwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_RegisterFile/registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registers[0:31]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Mux_2_1_2/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Mux_2_1_2/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Mux_2_1_2/c" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">c[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_Mux_2_1_2/s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/adress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">adress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/writedata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/memread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memread</obj_property>
+      <obj_property name="ObjectShortName">memread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/readdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">readdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testb/uut/Inst_DataMemoryUnit/memory" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">memory[0:35]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:35]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1 @@
+vhdtdtfi -prj AlaaEldinTamer_18200328 -o "D:/New folder (3)/AlaaEldinTamer_MIPS/Adder2.vhi" -module Adder2 -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Adder2.vhd 
